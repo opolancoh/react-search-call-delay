@@ -1,11 +1,11 @@
 import './App.css';
-import { CallWithUseEffect } from './components/Search';
+import { Search } from './components/Search';
 
 function App() {
   return (
     <div className='App'>
       <header className='App-header'>
-        <CallWithUseEffect />
+        <Search />
       </header>
     </div>
   );

@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 
 const fakeApi = () => console.log('API called!');
 
-export function CallWithUseEffect() {
+export function Search() {
   const [searchTerm, setSearchTerm] = useState('');
 
   useEffect(() => {
